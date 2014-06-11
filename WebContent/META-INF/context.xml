@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJarLocking="true" path="/ExercicioJava">
+	
+	<Resource 
+		auth="Container"
+		driverClassName="com.mysql.jdbc.Driver"
+		maxActive="20"
+		maxIdle="10"
+		maxWait="100"
+		name="jdbc/MySQL"
+		type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost/java"
+		username="root"
+		password=""
+	/>
+
+
+</Context>
